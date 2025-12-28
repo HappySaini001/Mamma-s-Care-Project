@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-body: 'Quicksand', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+
+  /* Soft Pastel Palette */
+  /* Background: Soft Pinkish White */
+  --background: 330 33% 98%; 
+  /* Foreground: Dark Charcoal/Purple for text */
+  --foreground: 260 20% 20%; 
+
+  /* Primary: Soft Rose/Pink */
+  --primary: 340 82% 70%;
+  --primary-foreground: 0 0% 100%;
+
+  /* Secondary: Calming Mint */
+  --secondary: 160 60% 92%;
+  --secondary-foreground: 160 40% 30%;
+
+  /* Muted: Soft Lavender Gray */
+  --muted: 260 20% 96%;
+  --muted-foreground: 260 10% 50%;
+
+  /* Accent: Lavender */
+  --accent: 260 80% 94%;
+  --accent-foreground: 260 40% 40%;
+
+  /* Destructive: Soft Red */
+  --destructive: 0 70% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  /* Border: Subtle Gray */
+  --border: 330 20% 90%;
+  --input: 330 20% 90%;
+  --ring: 340 82% 70%;
+
+  --radius: 1rem;
+}
+
+.dark {
+  /* Dark mode adjustments - keeping it soft but readable */
+  --background: 260 20% 12%;
+  --foreground: 330 33% 98%;
+
+  --primary: 340 70% 65%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 160 30% 20%;
+  --secondary-foreground: 160 40% 80%;
+
+  --muted: 260 20% 20%;
+  --muted-foreground: 260 10% 60%;
+
+  --accent: 260 30% 20%;
+  --accent-foreground: 260 40% 80%;
+
+  --destructive: 0 60% 50%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 260 20% 25%;
+  --input: 260 20% 25%;
+  --ring: 340 70% 65%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-body);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply font-semibold tracking-tight;
+  }
+}
+
+/* Custom Scrollbar for a polished feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/20 rounded-full hover:bg-primary/40 transition-colors;
+}
+
+/* Soft card hover effects */
+.hover-card-effect {
+  @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-primary/20;
+}

@@ -1,0 +1,27 @@
+const allowlist = [
+  "@google/generative-ai",
+  "axios",
+  // "connect-pg-simple",  <-- DELETE THIS LINE
+  "cors",
+  "date-fns",
+  "drizzle-orm",
+  "drizzle-zod",
+  "express",
+  "express-rate-limit",
+  "express-session",
+  "jsonwebtoken",
+  "memorystore",
+  "multer",
+  "nanoid",
+  "nodemailer",
+  "openai",
+  "passport",
+  "passport-local",
+  // "pg",  <-- DELETE THIS LINE
+  "stripe",
+  "uuid",
+  "ws",
+  "xlsx",
+  "zod",
+  "zod-validation-error",
+];
