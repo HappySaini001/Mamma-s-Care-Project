@@ -3,21 +3,30 @@ Mamma's Care Project is a comprehensive pregnancy companion application designed
 
 # 🚀 Features
 Interactive Dashboard: Real-time pregnancy progress tracking, including current week, trimester, and baby size comparisons (e.g., "Your baby is the size of an avocado").
- ![image alt]()
-
+ ![image alt](https://github.com/HappySaini001/Mamma-s-Care-Project/blob/a6e3dc777da2dadae31686dd86f6be3a560a8fcf/Images/Screenshot%202026-02-11%20200944.png)
+ ![image alt](https://github.com/HappySaini001/Mamma-s-Care-Project/blob/a6e3dc777da2dadae31686dd86f6be3a560a8fcf/Images/Screenshot%202026-02-11%20211408.png)
+ 
 AI-Powered Chat: Integrated AI assistant to provide health information and support.
+ ![image alt](https://github.com/HappySaini001/Mamma-s-Care-Project/blob/a6e3dc777da2dadae31686dd86f6be3a560a8fcf/Images/Screenshot%202026-02-11%20211624.png)
+ 
 
 Health & Wellness Reminders: Automated and customizable reminders for hydration, prenatal vitamins, and sleep.
+![image alt](https://github.com/HappySaini001/Mamma-s-Care-Project/blob/9a357a00b7c71b7ced5d4b95bd04ed6b2f3677e5/Images/Screenshot%202026-02-11%20212415.png)
 
 Diet & Medical Management: Track doctor-prescribed diet plans with support for uploading medical report photos.
+![image alt](https://github.com/HappySaini001/Mamma-s-Care-Project/blob/586edcd49fae9c0185e396852e576259c736c95b/Images/Screenshot%202026-02-11%20211552.png)
 
 Mood Journaling: A dedicated space to log daily feelings and track emotional trends.
+![image alt](https://github.com/HappySaini001/Mamma-s-Care-Project/blob/586edcd49fae9c0185e396852e576259c736c95b/Images/Screenshot%202026-02-11%20212804.png)
 
 Baby Moments: A digital scrapbook to capture and save photos and descriptions of special milestones.
+![image alt](https://github.com/HappySaini001/Mamma-s-Care-Project/blob/9a357a00b7c71b7ced5d4b95bd04ed6b2f3677e5/Images/Screenshot%202026-02-11%20211649.png)
 
 Emergency SOS: Quick-access emergency contact management and SOS functionality for immediate assistance.
+![image alt](https://github.com/HappySaini001/Mamma-s-Care-Project/blob/9a357a00b7c71b7ced5d4b95bd04ed6b2f3677e5/Images/Screenshot%202026-02-11%20211708.png)
 
 Medical Profile: Centralized storage for due dates, blood type, doctor details, and hospital information.
+![image alt](https://github.com/HappySaini001/Mamma-s-Care-Project/blob/9a357a00b7c71b7ced5d4b95bd04ed6b2f3677e5/Images/Screenshot%202026-02-11%20211743.png)
 
 # 🛠️ Tech Stack
 Frontend
